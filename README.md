@@ -1,6 +1,6 @@
 # Memoire_Biais_IA
 Ce dépôt contient le code développé dans le cadre de mon mémoire de maîtrise consacré à l’évaluation et la mitigation des biais algorithmiques dans les systèmes d’intelligence artificielle appliqués au recrutement intitué : **L’équité dans les systèmes d’intelligence artificielle pour la prise de décision : atténuer les biais algorithmiques genrés et raciaux en apprentissage automatique**
-L’objectif de ce projet est d’analyser la robustesse de différentes méthodes de mitigation (pré-traitement, in-processing, post-traitement) à l’aide du dataset **FairCVdb** (https://github.com/BiDAlab/FairCVtest/tree/master/data) et de bibliothèques spécialisées telles qu’[IBM AI Fairness 360]([https://aif360.mybluemix.net](https://github.com/Trusted-AI/AIF360)/).
+L’objectif de ce projet est d’analyser la robustesse de différentes méthodes de mitigation (pré-traitement, in-processing, post-traitement) à l’aide du dataset **FairCVdb** (https://github.com/BiDAlab/FairCVtest/tree/master/data) et de bibliothèques spécialisées telles qu’[IBM AI Fairness 360] (https://github.com/Trusted-AI/AIF360).
 
 ---
 
