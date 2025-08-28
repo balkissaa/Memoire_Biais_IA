@@ -37,3 +37,13 @@ L’objectif de ce projet est d’analyser la robustesse de différentes méthod
    ```bash
    git clone https://github.com/<ton-profil>/memoire-biais-ia.git
    cd memoire-biais-ia
+
+
+Technologies principales
+Python 3.9+
+NumPy
+Pandas
+Matplotlib
+scikit-learn
+TensorFlow (compat.v1)
+IBM AI Fairness 360
