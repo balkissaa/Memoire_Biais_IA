@@ -16,7 +16,8 @@ L’objectif de ce projet est d’analyser la robustesse de différentes méthod
   - `faircvtestexp_gender_aif360.py`  
   - `faircvtestexp_neutral_aif360.py`
 
-- `preprocessing/`  
+- `mitigation/`
+  `preprocessing` 
   Implémentations de la méthode **Reweighing** (pré-traitement) avec AIF360.  
   Inclut également les expériences avec variables proxy corrélées au genre (ρ = 0.3, 0.5, 0.7, 0.9).  
   - `MethodepreprocessingNeutralRNoriginal.py`  
@@ -26,7 +27,7 @@ L’objectif de ce projet est d’analyser la robustesse de différentes méthod
   - `method_preproc_reweighing_Proxy_0.7.py`  
   - `method_preproc_reweighing_Proxy_0.9.py`  
 
-- `inprocessing/`  
+ `inprocessing`  
   Implémentations de **l’Adversarial Debiasing** (in-processing) avec TensorFlow et AIF360.  
   Expériences menées sur données neutres, genrées et proxy (ρ = 0.3, 0.5, 0.7, 0.9).  
   - `Inprocess_Advdeb_Gender.py`  
@@ -35,7 +36,7 @@ L’objectif de ce projet est d’analyser la robustesse de différentes méthod
   - `Inprocess_Advdeb_Gender_Proxy0.7.py`  
   - `Inprocess_Advdeb_Gender_Proxy0.9.py`  
 
-- `postprocessing/`  
+  `postprocessing`  
   Implémentations de la méthode **Reject Option Classification (ROC)** (post-traitement).  
   Appliquée aux données neutres, genrées et proxy.  
   - `Postprocessing_Neutral.py`  
