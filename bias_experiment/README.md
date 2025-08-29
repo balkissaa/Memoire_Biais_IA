@@ -1,12 +1,12 @@
-This folder contains the scripts used to quantitatively evaluate bias in the **FairCVdb** dataset with the IBM AI Fairness 360  library.
+Ce dossier contient les scripts utilisés pour évaluer quantitativement les biais dans le jeu de données **FairCVdb** à l’aide de la librairie IBM AI Fairness 360.  
 
-### Scripts
+### Scripts  
 
 - **`faircvtestexp_gender_aif360.py`**  
-  Computes several fairness metrics (Statistical Parity Difference, Equal Opportunity Difference, Average Odds Difference, Error Rate Difference, Disparate Impact, Accuracy) based on the **predicted scores biased by gender**.  
-  Produces a CSV file summarizing the results.
+  Calcule plusieurs métriques d’équité (Statistical Parity Difference, Equal Opportunity Difference, Average Odds Difference, Error Rate Difference, Disparate Impact, Accuracy) à partir des **scores prédits biaisés par le genre**.  
+  Produit un fichier CSV résumant les résultats.  
 
 - **`faircvtestexp_neutral_aif360.py`**  
-  Performs the same evaluation on **neutral predicted scores (without explicit bias)**.  
-  Serves as a reference comparison against the biased scenario.  
-  Also produces a CSV summary of the results.
+  Réalise la même évaluation sur des **scores prédits neutres (sans biais explicite)**.  
+  Sert de référence comparative par rapport au scénario biaisé.  
+  Produit également un fichier CSV résumant les résultats.  
