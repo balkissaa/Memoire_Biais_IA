@@ -29,8 +29,6 @@ Methods applied *during* training by modifying the learning algorithm.
 ### 3. Post-processing  
 Methods applied *after* training to adjust model predictions.  
 
-- **`postprocessing/CalibratedEqOdds.py`**  
-
 - **`postprocessing/RejectOptionClassifier.py`**  
   Applies the **Reject Option Classification** technique  
   Relabels uncertain predictions in a way that improves fairness while maintaining accuracy.  
