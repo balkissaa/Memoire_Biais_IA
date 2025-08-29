@@ -24,7 +24,8 @@ Méthodes appliquées *pendant* l’entraînement en modifiant l’algorithme d�
   Entraîne un classificateur tout en minimisant simultanément la capacité d’un adversaire à prédire l’attribut protégé à partir des prédictions.  
   Produit un classificateur « équitable » dont les prédictions contiennent moins d’informations discriminatoires.  
   **Sorties :**  
-  - Fichier CSV avec les métriques d’équité moyennes sur plusieurs exécutions  
+- **Fichiers CSV** avec la moyenne ± écart-type sur 10 exécutions
+-  Fichiers `.npy` avec les scores de prédiction après mitigation  
 
 ### 3. Post-traitement  
 Méthodes appliquées *après* l’entraînement pour ajuster les prédictions du modèle.  
@@ -43,5 +44,5 @@ Pour chaque méthode, les scripts génèrent :
   - Error Rate Difference (ERD)  
   - Disparate Impact (DI)  
   - Accuracy  
-- **Fichiers CSV** avec la moyenne ± écart-type sur 10 exécutions  
-- (Optionnel) Fichiers `.npy` avec les scores de prédiction après mitigation  
+- **Fichiers CSV**  
+-  Fichiers `.npy` avec les scores de prédiction après mitigation  
