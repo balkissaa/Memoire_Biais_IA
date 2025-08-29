@@ -1,6 +1,6 @@
 # Méthodes de mitigation des biais  
 
-Ce dossier contient des scripts implémentant des **stratégies de mitigation des biais** sur le **jeu de données FairCVdb**, en utilisant [IBM AI Fairness 360 (AIF360)](https://aif360.mybluemix.net/).  
+Ce dossier contient des scripts implémentant des **stratégies de mitigation des biais** sur le **jeu de données FairCVdb**, en utilisant [IBM AI Fairness 360 (AIF360)](https://aif360.readthedocs.io/en/stable/).  
 Chaque méthode a été appliquée au scénario de recrutement avec le **genre** comme attribut protégé.  
 
 ## Catégories  
